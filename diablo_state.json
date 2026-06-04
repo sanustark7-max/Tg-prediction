@@ -1,0 +1,50 @@
+{
+  "pattern_memory": {
+    "depth": 3,
+    "db": {
+      "BIG,BIG,BIG": {
+        "BIG": 53,
+        "SMALL": 55
+      },
+      "BIG,BIG,SMALL": {
+        "BIG": 58,
+        "SMALL": 53
+      },
+      "BIG,SMALL,SMALL": {
+        "BIG": 49,
+        "SMALL": 51
+      },
+      "SMALL,SMALL,BIG": {
+        "BIG": 46,
+        "SMALL": 53
+      },
+      "SMALL,BIG,SMALL": {
+        "BIG": 66,
+        "SMALL": 46
+      },
+      "BIG,SMALL,BIG": {
+        "BIG": 65,
+        "SMALL": 60
+      },
+      "SMALL,BIG,BIG": {
+        "BIG": 55,
+        "SMALL": 56
+      },
+      "SMALL,SMALL,SMALL": {
+        "BIG": 51,
+        "SMALL": 48
+      }
+    }
+  },
+  "weights": {
+    "M1": 0.7,
+    "M2": 0.75,
+    "M3": 0.7,
+    "M4": 0.55,
+    "M5": 0.65,
+    "Stable": 0.8,
+    "Pattern": 0.7,
+    "Random": 0.6
+  },
+  "consecutive_losses": 0
+}
